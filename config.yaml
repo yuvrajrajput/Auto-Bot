@@ -1,0 +1,218 @@
+# Add your LinkedIn email ID and password. WARNING: KEEP THIS OFFLINE ON YOUR PC AND DO NOT COMMIT/UPLOAD.
+email: yuvrajrajputgh24@gmail.com
+password: EldoRado007$$
+
+# Anti-lock default is False to prevent your PC from sleeping to allow bot to run uninterrupted.
+# Set it to True if you wish to disable this functionality.
+disableAntiLock: True
+
+# Set to True if you wish to search for remote jobs only.
+remote: True
+
+# Set to True if you wish to search for jobs marked as "under 10 applicants" (default is False).
+lessthanTenApplicants: False
+
+# Set to True or False to suit your preference. Multiple True allowed.
+experienceLevel:
+ internship: False
+ entry: True
+ associate: False
+ mid-senior level: True
+ director: False
+ executive: False
+
+# Set to True or False to suit your preference. Multiple True allowed.
+jobTypes:
+ full-time: True
+ contract: False
+ part-time: False
+ temporary: False
+ internship: False
+ other: False
+ volunteer: False
+
+# Set ONLY one as True to suit your preference.
+date:
+ all time: True
+ month: False
+ week: False
+ 24 hours: False
+
+# Remove hash sign to add positions. You can add as many as you need, but preserve formatting
+positions:
+ - Data Analyst
+ - Data Scientist
+
+
+# Remove hash sign to add locations. You can add as many as you need including adding 'Remote' as a location but first location must be a valid country.
+locations:
+ - Bangalore
+ - Remote
+# Set to True if you are residing in the country of job
+residentStatus: False
+
+# Distance from the location added above. Allowed values are {0, 5, 10, 25, 50, 100}, use only one.
+distance: 10
+
+# Optional directory to save logs, does not work sometimes. Does not work sometimes, so leave it unchanged.
+outputFileDirectory: ~/Documents/Applications/EasyApplyBot/EasyApplyBot/
+
+# Companies you don't want to apply.
+companyBlacklist:
+ - Digz Placements
+ - Helix Tech-IT Solutions
+
+# Job titles you want to avoid applying. Use it to refine performance of bot.
+titleBlacklist:
+ #- word1
+ #- word2
+
+# Bot will not apply to jobs posted by black listed people.
+posterBlacklist:
+ #- name1
+ #- name2
+
+# Path to your CV/resume and cover letter (remove hash sign). These paths often don't work
+# so apply one job manually once, bot will reuse manually uploaded CV for automating the task.
+# Note: Prefer a path without spaces, i.e. instead of "Me My" to "MeMy" or "Me_My".
+uploads:
+ resume: C:\Users\Public\Yuvraj_Rajput.pdf
+ # Cover letter is optional
+ coverLetter: C:\Users\Public\CoverLettter.DOCX
+
+
+# ------------ QA section -------------------
+
+# ------------ Additional parameters: checkboxes ---------------
+checkboxes:
+ # Do you have a valid driver's license? (yes/no checkbox)
+ driversLicence: True
+ # Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? (yes/no checkbox)
+ # This is relative to the location and your citizenship applying above, and same with legallyAuthorized.
+ requireVisa: False
+ # Are you legally authorized to work in COUNTRY? (yes/no checkbox)
+ legallyAuthorized: True
+ # We must fill this position urgently. Can you start immediately? (yes/no checkbox)
+ urgentFill: True
+ # Are you comfortable commuting to this job's location? (yes/no checkbox)
+ commute: True
+ # Are you comfortable working in a remote environment? (yes/no checkbox)
+ remote: True
+ # Are you comfortable taking a drug in accordance with local/state laws? (yes/no checkbox)
+ drugTest: True
+ # Are you willing to complete an assessment? (yes/no checkbox)
+ assessment: True
+ # Do you have security clearance of [xxx] country? (yes/no checkbox)
+ securityClearance: False
+ # Have you completed the following level of education: DEGREE TYPE? Remove applicable # signs (yes/no checkbox)
+ degreeCompleted:
+  # - High School Diploma
+  # - Bachelor's Degree
+  # - Associate's Degree
+  # - Master's Degree
+  # - Master of Business Administration
+  # - Doctor of Philosophy
+  # - Doctor of Medicine
+  # - Doctor of Law
+ # Are you willing to undergo a background check, in accordance with local law/regulations?
+ backgroundCheck: True
+
+# ------------ Additional parameters: universityGpa ---------------
+universityGpa: 3.0
+
+# ------------ Additional parameters: salaryMinimum ---------------
+salaryMinimum: 800000
+
+# ------------ Additional  parameters: salaryMinimum ---------------
+expected CTC: 900000
+
+# ------------ Additional parameters: languages ---------------
+languages:
+ english: Professional # Allowed choices { None, Conversational, Professional, Native or bilingual }
+
+
+# ------------ Additional parameters: noticePeriod in weeks ---------------
+noticePeriod: 14
+
+# ------------ Additional parameters: years of experience ---------------
+# How many years of work experience do you have ...? (whole numbers only)
+# You may add more skills depending on your industry or profession at the bottom.
+experience:
+ # normal ones
+ Data scientist: 2
+ Analyst : 2
+ PostgreSQL: 1
+ NLP: 2
+ Finance: 1
+ Critical thinking: 0
+ Data Manipulation: 2
+ Communication: 2
+ Problem-solving: 2
+ Data Wrangling: 2
+ Regression: 1
+ Github: 2
+ Data Visualization: 2
+ Data Validation: 1
+ Perspective Analysis: 1
+ MYSQL: 1
+ waterfall: 1
+ Agile: 1
+ SDLC: 1
+ statical analysis: 2
+ data collection: 2
+ Seaborn: 2
+ Matplotlib: 2
+ Prediction modeling: 1
+ Data Mining: 2
+ Google big query: 1
+ Google Analytics: 2
+ PowerBI: 2
+ PowerQuery: 2
+ Excel: 1
+ PowerPoint: 1
+ Word: 1
+ Classification: 2
+ keras: 1
+ scipy: 1
+ tensorflow: 1
+ scikit learn: 1
+ Time series: 2
+ Deep Learning: 0
+ plotly: 2
+ numpy: 2
+ Microsoft Power BI: 2
+ pandas: 2
+ Machine Learning: 2
+ Tableau: 2
+ SQL Server: 2
+ SQL: 2
+ Data Analyst: 2
+ Data Science: 2
+ python: 2
+ selenium: 1
+ # default to put for any industry/skill that you did not list
+ default: 0
+
+# ------------ Additional parameters: personal info ---------------
+personalInfo:
+ Pronouns: Mr.
+ First Name: Yuvraj
+ Last Name: Rajput
+ Phone Country Code: India (+91)
+ Mobile Phone Number: 9624870800
+ Street address: 187 common plot, hariom nagar road
+ City: shubhanpura, vadodara # Include the state/province as well!
+ State: Gujarat
+ Zip: 390023
+ Linkedin: https://www.linkedin.com/in/yuvraj-rajput-4b92a1257/
+ Website: https://github.com/yuvrajrajput
+ MessageToManager: "Hi, I am interested to join your organization. Please have a look at my resume. Thank you." # Keep message short and within the quotes. This is a testing feature and may not work.
+
+# ------------ Additional parameters: USA employment crap ---------------
+eeo:
+ gender: Male
+ race: None
+ veteran: None
+ disability: None
+ citizenship: yes
+ clearance: no
